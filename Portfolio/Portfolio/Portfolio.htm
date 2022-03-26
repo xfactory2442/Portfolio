@@ -26,6 +26,9 @@
         <button id="dice_game_tab_button" class="tablinks tab_button" onclick="ChangeTab(event, 'dice_game')">
             Unity Dice Game
         </button>
+        <button id="bullet_hell_pattern_maker_tab_button" class="tablinks tab_button" onclick="ChangeTab(event, 'bullet_hell_pattern_maker')">
+            Bullet Hell Pattern Maker
+        </button>
     </div>
     <div id="honours_project" class="tabcontent">
         Link to repo to download: <a href="https://github.com/xfactory2442/HonoursProject">Honours Project Game</a>
@@ -152,17 +155,39 @@
         <br />
         <p>
             This game was made as a passion project. I have played a lot of games
-            with dice and turn based mechanics and wanted to figure out how to 
+            with dice and turn based mechanics and wanted to figure out how to
             make them on my own. <br />
-            I used Unity to create this prototype. It is unfinished but includes 
-            dice rolling mechanics and a speed based turns (the speed is 
+            I used Unity to create this prototype. It is unfinished but includes
+            dice rolling mechanics and a speed based turns (the speed is
             determined by the rolled dice). <br />
             I am in the middle of implementing a visible turn order on the right
-            side of the UI. This would in theory show the character portraits and 
-            when they are hovered over they would slide out to show the 
+            side of the UI. This would in theory show the character portraits and
+            when they are hovered over they would slide out to show the
             characters stats. <br />
             The game does not currently have any actual battle mechanic as these will
             be implemented later.
+        </p>
+    </div>
+    <div id="bullet_hell_pattern_maker" class="tabcontent">
+        Link to repo to download: <a href="https://github.com/xfactory2442/Bullet-Hell-Pattern-Maker">Bullet Hell Pattern Maker</a>
+        <br />
+        <br />
+        <img src="https://raw.githubusercontent.com/AleyshaBradbury/Portfolio/main/Portfolio/Portfolio/Pictures/PatternMaker.PNG" alt="Pattern Maker">
+        <p>
+            I'm making a bullet hell in my spare time and instead of hardcoding or 
+            creating the bullets in a file, I have been creating a program which will
+            allow me to view the patterns as I create them and then save them to a 
+            file to be loaded into my game.
+            <br />
+            <br />
+            At the moment, the user can create bullets in time groups, set their
+            positions, sizes and velocities, and then save these patterns to a file
+            which will then read all the patterns saved to it in when the program
+            loads. At the time of viewing there may be more progress made to it
+            as it is in active development.
+            <br />
+            <br />
+            This tool is created using SFML and ImGui.
         </p>
     </div>
 </BODY>
